@@ -1,7 +1,8 @@
 <?php
 $method = $_SERVER["REQUEST_METHOD"];
 include('./class/Student.php');
-$student = new Student();             //new istance of Stundent class
+// Add new student instance
+$student = new Student();
 
 switch($method) 
 {
